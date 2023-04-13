@@ -1,0 +1,33 @@
+public static void exercio9() {
+		int [][] matriz = new int [2][2];
+		
+		matriz[0][0] = 1;
+		matriz[0][1] = 2;
+		matriz[1][0] = 3;
+		matriz[1][1] = 4;
+		
+		int diagPrinc = matriz[0][0] + matriz[1][1];
+		int diagSecun = matriz[0][1] + matriz[1][0];
+		
+		System.out.println(diagPrinc - diagSecun);
+	}
+	
+	public static void exercio10() {
+		String[] alunos = new String[10];
+		alunos[0] = "Gabriel";
+		alunos[1] = "Renato";
+		alunos[2] = "rafael";
+		alunos[3] = "Alysson";
+		alunos[4] = "Leonardo";
+		alunos[5] = "Maicon";
+		alunos[6] = "Yurik";
+		alunos[7] = "Julio";
+		alunos[8] = "Marcelo";
+		alunos[9] = "Matheus";
+		
+		for(int i = 0; i < alunos.length; i++) {
+			if(alunos[i].toLowerCase().startsWith("r") ) {
+				System.out.println(alunos[i]);
+			}
+		}
+	}
