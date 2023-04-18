@@ -1,0 +1,8 @@
+public static String inverter(String texto) {
+		String invertida = "";
+		for(int i = texto.length(); i > 0; i--) {
+			invertida += texto.charAt(i-1);
+		}
+		
+		return invertida;
+	}

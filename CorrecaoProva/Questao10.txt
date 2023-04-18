@@ -1,0 +1,3 @@
+public static boolean existe(String texto, String palavra) {
+		return texto.contains(palavra);
+	}
